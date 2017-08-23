@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cxxprof_server">
+      <UniqueIdentifier>{9b1b960d-7f44-4edf-9622-e2dbc9d77d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cxxprof_dyn_network">
+      <UniqueIdentifier>{aff49cfd-5138-4ddb-9990-6d436d5917b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{83693040-8d5e-48ad-8d16-517bcdd50f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3cc">
+      <UniqueIdentifier>{864d078c-af2f-417d-a52a-89d166538536}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CxxProf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CxxProfStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IActivity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IDynCxxProf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_server\DataStorage.h">
+      <Filter>cxxprof_server</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3ext.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\basic_statement.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\command.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\connection.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\exception.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\manipulator.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\query.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\row.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\transaction.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc\util.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3cc\sqlite3cc.h">
+      <Filter>sqlite3cc</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\ActivityResult.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\AppInfo.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\NetworkActivity.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\NetworkCxxProf.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\NetworkMark.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\NetworkObjects.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\NetworkPlot.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+    <ClInclude Include="cxxprof_dyn_network\Serializers.h">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CxxProfStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cxxprof_server\DataStorage.cpp">
+      <Filter>cxxprof_server</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\shell.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\basic_statement.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\command.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\connection.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\exception.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\manipulator.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\query.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\row.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\transaction.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3cc\src\util.cc">
+      <Filter>sqlite3cc</Filter>
+    </ClCompile>
+    <ClCompile Include="cxxprof_dyn_network\NetworkActivity.cpp">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClCompile>
+    <ClCompile Include="cxxprof_dyn_network\NetworkCxxProf.cpp">
+      <Filter>cxxprof_dyn_network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="convert.py" />
+  </ItemGroup>
+</Project>

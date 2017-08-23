@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <BOOST_INCLUDE_PATH>D:\working\boost_1_63_0</BOOST_INCLUDE_PATH>
+    <BOOST_LIB_PATH>D:\working\boost_1_63_0\stage\x64\lib</BOOST_LIB_PATH>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)CxxProf/sqlite;$(SolutionDir)CxxProf/sqlite3cc;$(BOOST_INCLUDE_PATH)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB_PATH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="BOOST_INCLUDE_PATH">
+      <Value>$(BOOST_INCLUDE_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_LIB_PATH">
+      <Value>$(BOOST_LIB_PATH)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
